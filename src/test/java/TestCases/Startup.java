@@ -4,17 +4,16 @@ import java.io.IOException;
 
 import org.testng.annotations.BeforeTest;
 
-import TestInit.Innitialize;
+import TestInit.Initialize;
 
 public class Startup {
-	Innitialize init = new Innitialize();
+	Initialize init = new Initialize();
 	@BeforeTest
 	void Setup(){
 		try {
 			init.Setup();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			
 		}
 	}
 }

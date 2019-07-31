@@ -12,22 +12,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import Keywords.Utils;
 
-public class Innitialize {
+public class Initialize {
 	public void Setup() throws IOException {
 		WebDriver driver = null;	
 		Properties prop = Utils.getProp(ConstantLib.configFile);
 		
 		  switch (prop.getProperty("browser")) { 
 		  case "Chrome": 
+			  //System.out.println(ConstantLib.chrome_path);
+			  System.setProperty("webdriver.chrome.driver", ConstantLib.chrome_path);
 			  driver = new ChromeDriver(); 
-			  //driver.navigate().to("google.com");
-			  driver.get("https://www.google.com/");
+			  driver.manage().window().maximize();
 			  break; 
 		  }
 		 ConstantLib.driver = driver;
 	}
 	
 	public void Cleanup() {
-		
+		ConstantLib.driver.close();
 	}
 }

@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
   	<classes>
   		<class name="TestCases.Startup" />
+  		<class name="TestCases.homePageWith3Sliders" />
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
