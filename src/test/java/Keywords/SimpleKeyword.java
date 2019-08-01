@@ -1,5 +1,7 @@
 package Keywords;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,4 +21,11 @@ public class SimpleKeyword {
 		element.click();
 	}
 	
+	public int countElements(By by) {
+		WebElement optionCount = ConstantLib.driver.findElement(by);
+		//WebElement count =  ConstantLib.driver.findElement(by);
+		//return count.getSize().height;
+		//return optionCount.size();
+		return 1;
+	}
 }
