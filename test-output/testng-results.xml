@@ -1,59 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38412" started-at="2019-08-01T05:20:02Z" finished-at="2019-08-01T05:20:40Z">
+  <suite name="Suite" duration-ms="22382" started-at="2019-08-02T04:46:08Z" finished-at="2019-08-02T04:46:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="38412" started-at="2019-08-01T05:20:02Z" finished-at="2019-08-01T05:20:40Z">
+    <test name="Test" duration-ms="22382" started-at="2019-08-02T04:46:08Z" finished-at="2019-08-02T04:46:30Z">
+      <class name="TestCases.Cleanup">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestCases.Cleanup@29774679]" name="cleanUp" is-config="true" duration-ms="2316" started-at="2019-08-02T04:46:28Z" finished-at="2019-08-02T04:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- TestCases.Cleanup -->
       <class name="TestCases.Startup">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.Startup@59fa1d9b]" name="Setup" is-config="true" duration-ms="4427" started-at="2019-08-01T05:20:02Z" finished-at="2019-08-01T05:20:06Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.Startup@4501b7af]" name="Setup" is-config="true" duration-ms="4144" started-at="2019-08-02T04:46:08Z" finished-at="2019-08-02T04:46:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
       </class> <!-- TestCases.Startup -->
-      <class name="TestCases.homePageWith3Sliders">
-        <test-method status="FAIL" signature="verifyHomePageWith3Sliders()[pri:0, instance:TestCases.homePageWith3Sliders@28d25987]" name="verifyHomePageWith3Sliders" duration-ms="33956" started-at="2019-08-01T05:20:06Z" finished-at="2019-08-01T05:20:40Z">
-          <exception class="java.lang.ClassCastException">
-            <message>
-              <![CDATA[org.openqa.selenium.remote.RemoteWebElement cannot be cast to java.util.List]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ClassCastException: org.openqa.selenium.remote.RemoteWebElement cannot be cast to java.util.List
-at Keywords.SimpleKeyword.countElements(SimpleKeyword.java:25)
-at TestCases.homePageWith3Sliders.verifyHomePageWith3Sliders(homePageWith3Sliders.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ClassCastException -->
+      <class name="TestCases.registerSuccessForNewAccount">
+        <test-method status="PASS" signature="verifyRegisterSuccessForNewAccount()[pri:0, instance:TestCases.registerSuccessForNewAccount@523884b2]" name="verifyRegisterSuccessForNewAccount" duration-ms="15897" started-at="2019-08-02T04:46:12Z" finished-at="2019-08-02T04:46:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageWith3Sliders -->
-      </class> <!-- TestCases.homePageWith3Sliders -->
+        </test-method> <!-- verifyRegisterSuccessForNewAccount -->
+      </class> <!-- TestCases.registerSuccessForNewAccount -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

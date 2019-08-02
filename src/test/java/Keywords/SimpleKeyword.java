@@ -22,10 +22,7 @@ public class SimpleKeyword {
 	}
 	
 	public int countElements(By by) {
-		WebElement optionCount = ConstantLib.driver.findElement(by);
-		//WebElement count =  ConstantLib.driver.findElement(by);
-		//return count.getSize().height;
-		//return optionCount.size();
-		return 1;
+		List<WebElement> optionCount = ConstantLib.driver.findElements(by);
+		return optionCount.size();
 	}
 }

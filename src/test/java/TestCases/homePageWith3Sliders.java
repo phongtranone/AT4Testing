@@ -1,5 +1,7 @@
 package TestCases;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
@@ -20,6 +22,6 @@ public class homePageWith3Sliders {
 		homePage.goToHere();
 		menuItem.goToMenu(menuName);
 		simpleKeyword.clickOnThe(By.xpath(shopPage.homeButtonLocator));
-		System.out.println(simpleKeyword.countElements(By.xpath(homePage.slidersLocator)));
+		assertEquals(simpleKeyword.countElements(By.xpath(homePage.slidersLocator)), expectedNumberOfSliders);
 	}
 }
