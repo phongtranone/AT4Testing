@@ -25,4 +25,9 @@ public class SimpleKeyword {
 		List<WebElement> optionCount = ConstantLib.driver.findElements(by);
 		return optionCount.size();
 	}
+	
+	public void inputData(String data, By by) {
+		WebElement element = ConstantLib.driver.findElement(by);
+		element.sendKeys(data);
+	}
 }
