@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestCases.homePageWith3Sliders">
+      <class name="TestCases.registerSuccessForNewAccount">
         <methods>
-          <include name="verifyHomePageWith3Sliders"/>
+          <include name="verifyRegisterSuccessForNewAccount"/>
         </methods>
-      </class> <!-- TestCases.homePageWith3Sliders -->
+      </class> <!-- TestCases.registerSuccessForNewAccount -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
