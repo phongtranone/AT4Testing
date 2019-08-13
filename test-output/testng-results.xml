@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="102917" started-at="2019-08-07T05:24:06Z" finished-at="2019-08-07T05:25:48Z">
+  <suite name="Suite" duration-ms="27998" started-at="2019-08-13T11:01:16Z" finished-at="2019-08-13T11:01:44Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="102917" started-at="2019-08-07T05:24:06Z" finished-at="2019-08-07T05:25:48Z">
+    <test name="Test" duration-ms="27998" started-at="2019-08-13T11:01:16Z" finished-at="2019-08-13T11:01:44Z">
       <class name="TestCases.Cleanup">
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestCases.Cleanup@29774679]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-08-07T05:25:48Z" finished-at="2019-08-07T05:25:48Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestCases.Cleanup@29774679]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-08-13T11:01:44Z" finished-at="2019-08-13T11:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- TestCases.Cleanup -->
       <class name="TestCases.Startup">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.Startup@4501b7af]" name="Setup" is-config="true" duration-ms="4044" started-at="2019-08-07T05:24:06Z" finished-at="2019-08-07T05:24:10Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.Startup@4501b7af]" name="Setup" is-config="true" duration-ms="3977" started-at="2019-08-13T11:01:16Z" finished-at="2019-08-13T11:01:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
       </class> <!-- TestCases.Startup -->
       <class name="TestCases.registerSuccessForNewAccount">
-        <test-method status="PASS" signature="verifyRegisterSuccessForNewAccount()[pri:0, instance:TestCases.registerSuccessForNewAccount@523884b2]" name="verifyRegisterSuccessForNewAccount" duration-ms="98854" started-at="2019-08-07T05:24:10Z" finished-at="2019-08-07T05:25:48Z">
+        <test-method status="PASS" signature="verifyRegisterSuccessForNewAccount()[pri:0, instance:TestCases.registerSuccessForNewAccount@523884b2]" name="verifyRegisterSuccessForNewAccount" duration-ms="24005" started-at="2019-08-13T11:01:20Z" finished-at="2019-08-13T11:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterSuccessForNewAccount -->
