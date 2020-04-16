@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import Keywords.Utils;
 
-public class Initialize {
+public class OpenBrowser {
 	public void Setup() throws IOException {
 		WebDriver driver = null;	
 		Properties prop = Utils.getProp(ConstantLib.configFile);

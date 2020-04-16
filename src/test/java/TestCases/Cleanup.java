@@ -2,10 +2,10 @@ package TestCases;
 
 import org.testng.annotations.AfterTest;
 
-import TestInit.Initialize;
+import TestInit.OpenBrowser;
 
 public class Cleanup {
-	Initialize init = new Initialize();
+	OpenBrowser init = new OpenBrowser();
 	@AfterTest
 	void cleanUp() {
 		init.Cleanup();
