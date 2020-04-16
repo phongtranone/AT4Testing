@@ -7,4 +7,9 @@ public class CreateNewPermission {
 	public void goToPermissionList() {
 		System.out.println("Go to Permission list");
 	}
+	
+	@Test
+	public void createNewPermission() {
+		System.out.println("Create new permission");
+	}
 }
