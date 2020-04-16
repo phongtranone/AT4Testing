@@ -4,10 +4,10 @@ import java.io.IOException;
 
 import org.testng.annotations.BeforeTest;
 
-import TestInit.OpenBrowser;
+import TestInit.Initialize;
 
 public class Startup {
-	OpenBrowser init = new OpenBrowser();
+	Initialize init = new Initialize();
 	@BeforeTest
 	void Setup(){
 		try {
