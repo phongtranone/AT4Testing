@@ -5,8 +5,8 @@
   	<classes>
   		<class name="TestCases.Startup" />
   		<!-- <class name="TestCases.homePageWith3Sliders" /> -->
-  		<class name="TestCases.registerSuccessForNewAccount" />
-  		<class name="TestCases.Cleanup" />
+  		<!-- <class name="TestCases.registerSuccessForNewAccount" />
+  		<class name="TestCases.Cleanup" /> -->
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

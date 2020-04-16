@@ -1,18 +1,14 @@
 package TestInit;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
-
-import javax.rmi.CORBA.Util;
-import javax.swing.text.Utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import Keywords.Utils;
 
-public class Initialize {
+public class OpenBrowser {
 	public void Setup() throws IOException {
 		WebDriver driver = null;	
 		Properties prop = Utils.getProp(ConstantLib.configFile);
