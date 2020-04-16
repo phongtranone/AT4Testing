@@ -12,4 +12,9 @@ public class CreateNewPermission {
 	public void createNewPermission() {
 		System.out.println("Create new permission");
 	}
+	
+	@Test
+	public void verifyNewPermission() {
+		System.out.println("Verify new permission");
+	}
 }
